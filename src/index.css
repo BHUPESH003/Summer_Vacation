@@ -1,0 +1,47 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+}
+
+.Footer{
+    font-family: 'Tektur', cursive;
+}
+
+.Navbar{
+    font-family: 'Tektur', cursive;
+}/* Add this CSS in your stylesheets (e.g., App.css) or use inline styles if you prefer */
+.nav-menu-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  .nav-menu-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }
+  
+  .nav-menu-exit {
+    opacity: 1;
+  }
+  
+  .nav-menu-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }
+  @media (max-width:768px) {
+    
+  
+  .mobile{
+    visibility: hidden;
+    height: 48px;
+  }
+}
