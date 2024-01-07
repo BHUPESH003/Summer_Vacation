@@ -1,5 +1,4 @@
 import React from 'react';
-import { APP_SCREENSHOTS } from '../constants/index'; // Import the image paths
 
 const DownloadApp = () => {
   return (
